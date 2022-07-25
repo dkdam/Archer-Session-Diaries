@@ -1,7 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project showing the actual build of a website. The goal is to create a web-app doing my archery scoring rounds and keeping progress of my score.
+
+link here:
+https://floating-inlet-90734.herokuapp.com/equipments
 
 Things you may want to cover:
 
