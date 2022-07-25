@@ -21,7 +21,7 @@
         <%= link_to 'Your Equipment', equipments_path %>
         <%= link_to 'New Equipment', new_equipment_path %>
         |
-        <%= link_to "Logout #{ @current_user.email }", login_path, :method => 'delete' %>
+        <%= link_to "Logout #{ @current_user.username }", login_path, :method => 'delete' %>
       <% else %>
         <%= link_to 'Sign up', new_user_path %>
         <%= link_to 'Sign in', login_path %>

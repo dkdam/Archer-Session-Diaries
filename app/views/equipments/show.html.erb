@@ -1,4 +1,8 @@
-<h1>Equipments to show</h1>
+<h1><%= @equipment.bow %></h1>
 
+<p><%= @equipment.arrow %></p>
 
-<p>This will show your gears here</p>
+<div>
+    <%= link_to 'Edit', edit_equipment_path(@equipment) %>
+    <%= button_to 'Delete', @equipment, :method => 'delete', :data => { :confirm => 'Are you sure?' } %>
+</div>

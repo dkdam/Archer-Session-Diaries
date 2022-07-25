@@ -1,14 +1,8 @@
 <h1>Equipments</h1>
 
+<% @current_user.equipments.each do |equipment|%>
+    <ul>
+        <li> Bow: <%= link_to equipment.bow, equipment %></li>
+    </ul>
+<% end %>
 
-<p>This will show off your current gears</p>
-
-<ol>
-    <li>Bow:Hoyt Invicta</li>
-    <li>Arrow: Easton X10 400</li>
-</ol>
-
-<ol>
-    <li>Bow: Mathews TRX</li>
-    <li>Arrow: GT Pierce Tours 400</li>
-</ol>
