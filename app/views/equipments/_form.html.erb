@@ -1,7 +1,37 @@
+<div class="formContainer">
+
 <%= form_for @equipment do |f| %>
     <%= f.label :bow %>
     <%= f.text_field :bow %>
+    <%= f.label :bow_type %>
+    <%= f.text_field :bow_type %>
+    <%= f.label :bow_size %>
+    <%= f.text_field :bow_size %>
+    <%= f.label :draw_length %>
+    <%= f.text_field :draw_length %>
+    <%= f.label :draw_weight %>
+    <%= f.text_field :draw_weight %>
+    <%= f.label :string %>
+    <%= f.text_field :string %>
     <%= f.label :arrow %>
     <%= f.text_field :arrow %>
+    <%= f.label :arrow_length %>
+    <%= f.text_field :arrow_length %>
+    <%= f.label :arrow_spine %>
+    <%= f.text_field :arrow_spine %>
+    <%= f.label :arrow_weight %>
+    <%= f.text_field :arrow_weight %>
+    <%= f.label :tip_weight %>
+    <%= f.text_field :tip_weight %>
+    <%= f.label :fletching %>
+    <%= f.text_field :fletching %>
+    <%= f.label :nock %>
+    <%= f.text_field :nock %>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+
     <%= f.submit %>
 <% end %>
+
+</div>
+

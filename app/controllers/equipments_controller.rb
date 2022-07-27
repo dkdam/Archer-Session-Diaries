@@ -22,11 +22,13 @@ class EquipmentsController < ApplicationController
   def update
     equipments = Equipment.find params[:id]
     equipments.update equipment_params
-    redirect_to equipments_path
+    redirect_to equipment_path
   end
 
   def show
     @equipment = Equipment.find params[:id]
+    @blog = Blog.find params[:id]
+    
   end
 
   def destroy
@@ -37,6 +39,6 @@ class EquipmentsController < ApplicationController
 
   private
   def equipment_params
-    params.require(:equipment).permit(:bow,:arrow)
+    params.require(:equipment).permit(:bow, :bow_type, :bow_size, :draw_length, :draw_weight, :string, :arrow, :arrow_length, :arrow_spine, :arrow_weight, :tip_weight, :fletching, :nock, :description)
   end
 end

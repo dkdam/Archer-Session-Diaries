@@ -1,0 +1,13 @@
+<div class="formContainer">
+
+<%= form_for @blog do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :Bow %>
+    <%= f.select :equipment_id, @current_user.equipments.pluck(:bow, :id), :include_blank => true %>
+    <%= f.label :session %>
+    <%= f.text_area :session %>
+
+    <%= f.submit %>
+<% end %>
+</div>

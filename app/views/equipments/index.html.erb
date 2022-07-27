@@ -1,8 +1,11 @@
 <h1>Equipments</h1>
 
+<h3>Bows:</h3>
 <% @current_user.equipments.each do |equipment|%>
     <ul>
-        <li> Bow: <%= link_to equipment.bow, equipment %></li>
+        <li><%= link_to equipment.bow, equipment %></li>
     </ul>
 <% end %>
+
+
 

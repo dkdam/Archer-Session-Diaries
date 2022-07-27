@@ -10,14 +10,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_24_122217) do
+ActiveRecord::Schema.define(version: 2022_07_27_065559) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "blogs", force: :cascade do |t|
+    t.string "title"
+    t.text "session"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.integer "equipment_id"
+  end
+
   create_table "equipments", force: :cascade do |t|
     t.text "bow"
+    t.text "bow_type"
+    t.text "bow_size"
+    t.text "draw_length"
+    t.text "draw_weight"
+    t.text "string"
     t.text "arrow"
+    t.text "arrow_length"
+    t.text "arrow_spine"
+    t.text "arrow_weight"
+    t.text "tip_weight"
+    t.text "fletching"
+    t.text "nock"
+    t.text "description"
     t.integer "user_id"
   end
 

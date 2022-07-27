@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project1</title>
+    <title>Pew Pew Score</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,24 +11,28 @@
   </head>
 
   <body>
-    <nav>
-      <%= link_to 'Home', root_path %>
+        <nav>
+
       |
       <% if @current_user.present? %>
 
-        <%= link_to 'New Round', root_path %>
+        <%= link_to 'Post Blog', blogs_path %>
         |
-        <%= link_to 'Your Equipment', equipments_path %>
-        <%= link_to 'New Equipment', new_equipment_path %>
+        <%= link_to 'Your Gear', equipments_path %>
+        <%= link_to 'New Gear', new_equipment_path %>
         |
+        <br>
         <%= link_to "Logout #{ @current_user.username }", login_path, :method => 'delete' %>
       <% else %>
+        <%= link_to 'Home', root_path %>
         <%= link_to 'Sign up', new_user_path %>
         <%= link_to 'Sign in', login_path %>
       <% end %>
-      
-      
     </nav>
-    <%= yield %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
   </body>
 </html>
