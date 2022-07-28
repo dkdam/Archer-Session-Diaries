@@ -1,12 +1,41 @@
-a {
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    font-family: 'Acme', sans-serif;
+
 }
 
 .container {
     margin-top: 25px;
     text-align: center;
+    max-width: 420px;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+}
+
+a:hover {
+    font-size: 30px;
+}
+
+.delete:hover {
+    font-size: 30px;
+}
+
+.crud {
+    margin: 15px;
+}
+
+.submit {
+    margin-top: 20px;
 }
 
 button {
     margin-right: 1em;
+}
+
+ul {
+    list-style-type: none;
 }

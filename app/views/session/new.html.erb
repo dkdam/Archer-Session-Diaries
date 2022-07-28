@@ -1,12 +1,15 @@
 <h1>Log In</h1>
 
+<div class="form-group">
 <% if flash[:error].present? %>
     <h2><%= flash[:error] %></h2>
 <% end %>
 <%= form_tag login_path do %>
     <%= label_tag :email %>
-    <%= email_field_tag :email %>
+    <%= email_field_tag :email, nil, :class => "form-control" %>
     <%= label_tag :password %>
-    <%= password_field_tag :password %>
-    <%= submit_tag "Sign in" %>
+    <%= password_field_tag :password, nil, :class => "form-control" %>
+    <div class="submit"><%= submit_tag "Sign in", :class => 'btn btn-success btn-lg' %></div>
 <% end %>
+</div>
+

@@ -1,5 +1,6 @@
 <h1>Sign Up</h1>
 
+<div class="form-group">
 <% if @user.errors.any? %>
     <ol>
         <% @user.errors.full_messages.each do |msg| %>
@@ -7,16 +8,17 @@
         <% end %>
     </ol>
 <% end %>
-
     <%= form_for @user do |f| %>
         <%= f.label :username %>
-        <%= f.text_field :username %>
+        <%= f.text_field :username, :class => "form-control" %>
         <%= f.label :email %>
-        <%= f.email_field :email %>
+        <%= f.email_field :email, :class => "form-control" %>
         <%= f.label :password %>
-        <%= f.password_field :password %>
+        <%= f.password_field :password, :class => "form-control" %>
         <%= f.label :password_confirmation %>
-        <%= f.password_field :password_confirmation %>
-        <%= f.submit "Sign up!" %>
+        <%= f.password_field :password_confirmation, :class => "form-control" %>
+        <div class="submit"> <%= f.submit "Sign up!", :class => 'btn btn-success btn-lg' %> </div>
     <% end %>
+
+</div>
 

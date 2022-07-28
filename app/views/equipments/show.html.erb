@@ -26,9 +26,9 @@
     <h1><b>Description:</b></h1> 
     <br> 
     <p><%= @equipment.description %></p>
-    <div class="d-inline-flex p-2 bd-highlight">
-        <button class="btn btn-outline-primary"><%= link_to 'Edit Gear', edit_equipment_path(@equipment) %></button>
-        <%= button_to 'Delete', @equipment, :method => 'delete', :data => { :confirm => 'Are you sure?' }, :class => "btn btn-outline-primary" %>
+    <div class="d-inline-flex p-2 bd-highlight crud">
+        <%= link_to 'Edit Gear', edit_equipment_path(@equipment), :class => 'btn btn-success btn-lg' %>
+        <%= button_to 'Delete', @equipment, :method => 'delete', :data => { :confirm => 'Are you sure?' }, :class => 'btn btn-success btn-lg delete' %>
     </div>
     <div>
 

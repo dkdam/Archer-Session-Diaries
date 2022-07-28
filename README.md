@@ -3,7 +3,7 @@
 This project showing the actual build of a website. The goal is to create a web-app doing my archery scoring rounds and keeping progress of my score.
 
 Link to my website:
-[Scoring Time](https://floating-inlet-90734.herokuapp.com/equipments)
+[Session Diary](https://floating-inlet-90734.herokuapp.com/equipments)
 I also reccomend to somewhat treat it like a mobile web application.
 
 Things you may want to cover:
@@ -16,6 +16,9 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+* 
+*
+*
 
 * Database initialization
 
@@ -45,3 +48,5 @@ Things you may want to cover:
 **Day 6**: After many struggles to get scoring app working I decided to put this in the side as I will not get it done by the end of the week. I have decided instead to create a diary website instead and keep it simple as a 3 models.
 
 **Day 7**: I have all the necessary functions working and how my site going as it needs to go. I have struggled alot with getting the links to navigate between the associations of both the equipment gears and the blog post together. After some Lodan help I had it working until I deployed it...
+
+**Day 8**: Had alot fo help getting some of my deployment working. I can't seem to figure out my new and show pages as it keeps crashing. I didn't know how to actually log into the terminal of Heroku to get this running and after with the help of Joel and Lodan once again I had to rollback, migrate and reset my deployment finally worked. Had learnt more about Heroku and fixing errors than any other days I've done.
