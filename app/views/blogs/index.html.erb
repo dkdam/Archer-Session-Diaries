@@ -1,7 +1,7 @@
-<h1>Blogs Post</h1>
+<h1>Session Post</h1>
 
 
-<p>Post a blog coming soon</p>
+<p>Select your sessions here</p>
 
 <% @current_user.blogs.each do |blog|%>
     <ul>
@@ -9,4 +9,4 @@
     </ul>
 <% end %>
 
-<%= link_to 'New Blog', new_blog_path %>
+<%= link_to 'New Blog', new_blog_path, :class => 'btn btn-success btn-lg' %>

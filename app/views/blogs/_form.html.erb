@@ -1,13 +1,13 @@
-<div class="formContainer">
+<div class="form-group ">
 
 <%= form_for @blog do |f| %>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
     <%= f.label :Bow %>
-    <%= f.select :equipment_id, @current_user.equipments.pluck(:bow, :id), :include_blank => true %>
+    <%= f.select :equipment_id, @current_user.equipments.pluck(:bow, :id), :include_blank => true,:class => "form-control" %>
+    <br>
+    <%= f.label :title %>
+    <%= f.text_field :title, :class => "form-control" %>
     <%= f.label :session %>
-    <%= f.text_area :session %>
-
-    <%= f.submit %>
+    <%= f.text_area :session, :class => "form-control" %>
+    <%= f.submit "Blog it", :class => 'btn btn-success btn-lg'%>
 <% end %>
 </div>
