@@ -27,7 +27,7 @@ class EquipmentsController < ApplicationController
 
   def show
     @equipment = Equipment.find params[:id]
-    @blog = Blog.find params[:id]
+    @blog = @equipment.blogs
     
   end
 
