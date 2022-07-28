@@ -1,36 +1,36 @@
-<div class="formContainer">
+<div class="form-group">
 
 <%= form_for @equipment do |f| %>
     <%= f.label :bow %>
-    <%= f.text_field :bow %>
+    <%= f.text_field :bow, :class => 'form-control' %>
     <%= f.label :bow_type %>
-    <%= f.text_field :bow_type %>
+    <%= f.text_field :bow_type, :class => 'form-control' %>
     <%= f.label :bow_size %>
-    <%= f.text_field :bow_size %>
+    <%= f.text_field :bow_size, :class => 'form-control' %>
     <%= f.label :draw_length %>
-    <%= f.text_field :draw_length %>
+    <%= f.text_field :draw_length, :class => 'form-control' %>
     <%= f.label :draw_weight %>
-    <%= f.text_field :draw_weight %>
+    <%= f.text_field :draw_weight, :class => 'form-control' %>
     <%= f.label :string %>
-    <%= f.text_field :string %>
+    <%= f.text_field :string, :class => 'form-control' %>
     <%= f.label :arrow %>
-    <%= f.text_field :arrow %>
+    <%= f.text_field :arrow, :class => 'form-control' %>
     <%= f.label :arrow_length %>
-    <%= f.text_field :arrow_length %>
+    <%= f.text_field :arrow_length, :class => 'form-control' %>
     <%= f.label :arrow_spine %>
-    <%= f.text_field :arrow_spine %>
+    <%= f.text_field :arrow_spine, :class => 'form-control' %>
     <%= f.label :arrow_weight %>
-    <%= f.text_field :arrow_weight %>
+    <%= f.text_field :arrow_weight, :class => 'form-control' %>
     <%= f.label :tip_weight %>
-    <%= f.text_field :tip_weight %>
+    <%= f.text_field :tip_weight, :class => 'form-control' %>
     <%= f.label :fletching %>
-    <%= f.text_field :fletching %>
+    <%= f.text_field :fletching, :class => 'form-control' %>
     <%= f.label :nock %>
-    <%= f.text_field :nock %>
+    <%= f.text_field :nock, :class => 'form-control' %>
     <%= f.label :description %>
-    <%= f.text_area :description %>
-
-    <%= f.submit %>
+    <%= f.text_area :description, :class => 'form-control' %>
+    <br>
+    <%= f.submit "Update", :class => 'btn btn-outline-primary' %>
 <% end %>
 
 </div>

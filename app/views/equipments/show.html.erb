@@ -1,24 +1,38 @@
-<h1><b>The Bow:</b> <br> <%= @equipment.bow %></h1>
-<p><b>Type:</b><%= @equipment.bow_type %></p>
-<p><b>Size:</b><%= @equipment.bow_size %></p>
-<p><b>Draw Length:</b><%= @equipment.draw_length %></p>
-<p><b>Draw Weight:</b><%= @equipment.draw_weight %></p>
-<p><b>String:</b> <%= @equipment.string %></p>
 
-<h1><b>The Arrow:</b> <br> <%= @equipment.arrow %></h1>
-<p><b>Arrow Length:</b> <%= @equipment.arrow_length %></p>
-<p><b>Spine:</b> <%= @equipment.arrow_spine %></p>
-<p><b>Arrow Weight:</b> <%= @equipment.arrow_weight %></p>
-<p><b>Tip Weight:</b> <%= @equipment.tip_weight %></p>
-<p><b>Fletching:</b> <%= @equipment.fletching %></p>
-<p><b>Nock:</b> <%= @equipment.nock %></p>
-
-<p><b>Description:</b> <br> <%= @equipment.description %></p>
-
-<div>
-    <%= link_to 'Edit', edit_equipment_path(@equipment) %>
-    <%= button_to 'Delete', @equipment, :method => 'delete', :data => { :confirm => 'Are you sure?' } %>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h1><b>Bow</b></h1> 
+            <h2><%= @equipment.bow %></h2>
+            <p><b>Type:</b><%= @equipment.bow_type %></p>
+            <p><b>Size:</b><%= @equipment.bow_size %></p>
+            <p><b>Draw Length:</b><%= @equipment.draw_length %></p>
+            <p><b>Draw Weight:</b><%= @equipment.draw_weight %></p>
+            <p><b>String:</b> <%= @equipment.string %></p>
+        </div>
+        <div class="col-sm">
+            <h1><b>Arrow</b></h1> 
+            <h2><%= @equipment.arrow %></h2>
+            <p><b>Arrow Length:</b> <%= @equipment.arrow_length %></p>
+            <p><b>Spine:</b> <%= @equipment.arrow_spine %></p>
+            <p><b>Arrow Weight:</b> <%= @equipment.arrow_weight %></p>
+            <p><b>Tip Weight:</b> <%= @equipment.tip_weight %></p>
+            <p><b>Fletching:</b> <%= @equipment.fletching %></p>
+            <p><b>Nock:</b> <%= @equipment.nock %></p>
+        </div>
+    </div>
 </div>
+
+    <h1><b>Description:</b></h1> 
+    <br> 
+    <p><%= @equipment.description %></p>
+    <div class="d-inline-flex p-2 bd-highlight">
+        <button class="btn btn-outline-primary"><%= link_to 'Edit Gear', edit_equipment_path(@equipment) %></button>
+        <%= button_to 'Delete', @equipment, :method => 'delete', :data => { :confirm => 'Are you sure?' }, :class => "btn btn-outline-primary" %>
+    </div>
+    <div>
+
+    </div>
 
 <% @equipment.blogs.each do |blog| %>
     <h2><%= blog.title %></h2>

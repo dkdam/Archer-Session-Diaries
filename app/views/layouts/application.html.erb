@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pew Pew Score</title>
+    <title>Pew Pew Diary</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-        <nav>
 
-      |
+      <nav class="navbar navbar-dark bg-primary">
       <% if @current_user.present? %>
 
-        <%= link_to 'Post Blog', blogs_path %>
+        <%= link_to 'Post Your Session', blogs_path %>
         |
         <%= link_to 'Your Gear', equipments_path %>
+        |
         <%= link_to 'New Gear', new_equipment_path %>
         |
-        <br>
         <%= link_to "Logout #{ @current_user.username }", login_path, :method => 'delete' %>
       <% else %>
         <%= link_to 'Home', root_path %>
         <%= link_to 'Sign up', new_user_path %>
         <%= link_to 'Sign in', login_path %>
       <% end %>
-    </nav>
+      </nav>
 
     <div class="container">
+
       <%= yield %>
+
     </div>
 
   </body>
