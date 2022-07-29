@@ -17,11 +17,6 @@ Sign up like so:
 
 ![SignUp](/app/assets/images/Signup.png)
 
-You can use this Username like so:
-
-* **Email:** john@something.com
-* **PW:** chicken
-
 At the Homepage
 
 ![Home page](/app/assets/images/HomePage.png)
