@@ -1,11 +1,48 @@
 # General Info
 
-This project I developed an Archery Diary Blog and keeping progress of my session and progressions. Then goal is to use it to reflect back on my sport sessions and 
+This project I developed an Archery Diary Blog and keeping records of my session and progressions. The idea is you use when an archer done their training sessions they can blog out what they done that day, how they felt, what they did great in and where to improve on. 
+
+# Motivation
+
+I originally wanted to do a scoring app that can store your total score session like any club shoot/qualification rounds that keeps your data of scores along with your bow gear specs. After some time I realise that the scoring app alone will take more more than a week than I expected so I decided to make a simple blog session app instead.
 
 # Link to my website:
 
-I recommend to somewhat treat it like a mobile web application.
-[Session Diary](https://floating-inlet-90734.herokuapp.com/equipments)
+I recommend to somewhat treat it like a mobile web application. So feel free to check out my
+[Diary App](https://floating-inlet-90734.herokuapp.com/equipments).
+
+# How to use
+
+Sign up like so:
+
+![SignUp](/app/assets/images/Signup.png)
+
+You can use this Username like so:
+
+* **Email:** john@something.com
+* **PW:** chicken
+
+At the Homepage
+
+![Home page](/app/assets/images/HomePage.png)
+
+Check out your gears or make a new gear
+
+![New Gear](/app/assets/images/NewGear.png)
+![Gear List](/app/assets/images/Gearslist.png)
+
+Got to your post sessions then select New Blog
+
+![Post Session](/app/assets/images/SessionPost.png)
+
+Make a new blog and don't foget to select your bow.
+
+![Post](/app/assets/images/post.png)
+![](/app/assets/images/PostShow.png)
+
+And you can also see your post along with your gear profile
+
+![Gear Profile](/app/assets/images/GearProfile.png)
 
 # Technologies
 
@@ -43,3 +80,7 @@ Had alot fo help getting some of my deployment working. I can't seem to figure o
 
 ### Day 9
 Done everything that I can on this project and it's all about the README and CSS now so I'll at least make it pretty. <3
+
+# Credits
+
+I like really thank Lodan and Joel for helping me out in this project as I learnt a hell lot and not be able to do this alone. 
