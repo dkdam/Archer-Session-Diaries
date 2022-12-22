@@ -11,39 +11,11 @@ I originally wanted to do a scoring app that can store your total score session 
 I recommend to somewhat treat it like a mobile web application. So feel free to check out my
 [Diary App](https://floating-inlet-90734.herokuapp.com/equipments).
 
-# How to use
-
-Sign up like so:
-
-![SignUp](/app/assets/images/Signup.png)
-
-At the Homepage
-
-![Home page](/app/assets/images/HomePage.png)
-
-Check out your gears or make a new gear
-
-![New Gear](/app/assets/images/NewGear.png)
-![Gear List](/app/assets/images/Gearslist.png)
-
-Got to your post sessions then select New Blog
-
-![Post Session](/app/assets/images/SessionPost.png)
-
-Make a new blog and don't foget to select your bow.
-
-![Post](/app/assets/images/post.png)
-![](/app/assets/images/PostShow.png)
-
-And you can also see your post along with your gear profile
-
-![Gear Profile](/app/assets/images/GearProfile.png)
-
 # Technologies
 
-* Ruby on Rails  v5.2.8.1
-* PostgreSQL
-* Bootstrap 4.6
+- Ruby on Rails  v5.2.8.1
+- PostgreSQL
+- Bootstrap 4.6
 
 # My Learning Experience
 
@@ -79,3 +51,31 @@ Done everything that I can on this project and it's all about the README and CSS
 # Credits
 
 I like really thank Lodan and Joel for helping me out in this project as I learnt a hell lot and not be able to do this alone. 
+
+# How to use
+
+Sign up like so:
+
+![SignUp](/app/assets/images/Signup.png)
+
+At the Homepage
+
+![Home page](/app/assets/images/HomePage.png)
+
+Check out your gears or make a new gear
+
+![New Gear](/app/assets/images/NewGear.png)
+![Gear List](/app/assets/images/Gearslist.png)
+
+Got to your post sessions then select New Blog
+
+![Post Session](/app/assets/images/SessionPost.png)
+
+Make a new blog and don't foget to select your bow.
+
+![Post](/app/assets/images/post.png)
+![](/app/assets/images/PostShow.png)
+
+And you can also see your post along with your gear profile
+
+![Gear Profile](/app/assets/images/GearProfile.png)
