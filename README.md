@@ -9,7 +9,7 @@ I originally wanted to do a scoring app that can store your total score session 
 # Link to my website:
 
 I recommend to somewhat treat it like a mobile web application. So feel free to check out my
-[Diary App](https://archer-session-diaries.fly.dev/login).
+[Diary App](https://archer-session-diaries.fly.dev/).
 
 ### To Login
 ```
@@ -63,28 +63,29 @@ I like really thank Lodan and Joel for helping me out in this project as I learn
 
 Sign up like so:
 
-<!-- ![SignUp](/app/assets/images/Signup.png) -->
-<img src= "./app/assets/images/Signup.png" width="400" height="400">
+<img src= "./app/assets/images/Signup.png" width="400" height="300">
 
 At the Homepage
 
-<!-- ![Home page](/app/assets/images/HomePage.png) -->
-<img src= "./app/assets/images/HomePage.png" width="400" height="400">
+<img src= "./app/assets/images/HomePage.png" width="400" height="300">
 
 Check out your gears or make a new gear
 
-![New Gear](/app/assets/images/NewGear.png)
-![Gear List](/app/assets/images/Gearslist.png)
+<img src= "./app/assets/images/NewGear.png" width="400" height="500">
+<img src= "./app/assets/images/Gearslist.png" width="400" height="300">
 
-Got to your post sessions then select New Blog
+Go to your post sessions then select New Blog
 
-![Post Session](/app/assets/images/SessionPost.png)
+<img src= "./app/assets/images/SessionPost.png" width="400" height="450">
 
 Make a new blog and don't foget to select your bow.
 
-![Post](/app/assets/images/post.png)
-![](/app/assets/images/PostShow.png)
+<!-- ![Post](/app/assets/images/post.png) -->
+<img src= "./app/assets/images/post.png" width="400" height="400">
+<!-- ![](/app/assets/images/PostShow.png) -->
+<img src= "./app/assets/images/PostShow.png" width="400" height="400">
 
 And you can also see your post along with your gear profile
 
-![Gear Profile](/app/assets/images/GearProfile.png)
+<!-- ![Gear Profile](/app/assets/images/GearProfile.png) -->
+<img src= "./app/assets/images/GearProfile.png" width="400" height="500">
