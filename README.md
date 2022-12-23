@@ -9,13 +9,20 @@ I originally wanted to do a scoring app that can store your total score session 
 # Link to my website:
 
 I recommend to somewhat treat it like a mobile web application. So feel free to check out my
-[Diary App](https://floating-inlet-90734.herokuapp.com/equipments).
+[Diary App](https://archer-session-diaries.fly.dev/login).
+
+### To Login
+```
+Email : john@something.com
+Password : chicken
+```
 
 # Technologies
 
 - Ruby on Rails  v5.2.8.1
 - PostgreSQL
 - Bootstrap 4.6
+- Fly
 
 # My Learning Experience
 
@@ -56,11 +63,13 @@ I like really thank Lodan and Joel for helping me out in this project as I learn
 
 Sign up like so:
 
-![SignUp](/app/assets/images/Signup.png)
+<!-- ![SignUp](/app/assets/images/Signup.png) -->
+<img src= "./app/assets/images/Signup.png" width="400" height="400">
 
 At the Homepage
 
-![Home page](/app/assets/images/HomePage.png)
+<!-- ![Home page](/app/assets/images/HomePage.png) -->
+<img src= "./app/assets/images/HomePage.png" width="400" height="400">
 
 Check out your gears or make a new gear
 
